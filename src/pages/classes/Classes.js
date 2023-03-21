@@ -6,12 +6,12 @@ export default function Classes () {
             <h3>Classes & Schedule</h3>
             <section>
                 Friday Livestream:
-                <p>
+                <p className='class-description'>
                     1 hour group session held online at 9AM, every Friday
                 </p>
                 <ul>
                     <li>Monthly membership at £6 per class</li>
-                    <li>Or £7 pr class</li>
+                    <li>Or £7 per class</li>
                 </ul>
             </section>
             <section>
@@ -28,8 +28,10 @@ export default function Classes () {
                     <li>Equipment available on request</li>
                 </ul>
             </section>
-            <p>
+            <p className='classes-info'>
                 *Block bookings and group sessions are available
+            </p>
+            <p  className='classes-info'>
                 **Home visits are limited by distance/location
             </p>
         </div>
