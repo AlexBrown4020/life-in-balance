@@ -14,3 +14,8 @@ main img {
 main p {
     width: 75%;
 }
+
+h2 {
+    font-style: italic;
+    font-weight: 450;
+}

@@ -5,7 +5,7 @@ export default function Home () {
         <div id='home-nav'>
             .
             <main id='home-container'>
-                <h1>Welcome to Life in Balance:</h1>
+                <h1>Welcome to <br/>Life in Balance:</h1>
                 <h2>Hatha Yoga with Julie</h2>
                 <img alt='main home' src='1679372360937.jpg'/>
                 <div id='classes-nav'/>
