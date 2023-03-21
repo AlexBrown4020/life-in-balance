@@ -9,6 +9,7 @@ export default function About () {
                     Julie is a fitness instructor from Berkshire, UK, with over 20 years
                     of experience in the fitness world. Currently, she specializes in Hatha Yoga.
                 </p>
+                <img id='teacher-about-img' alt='teacher pose about container' src='1679371570821.jpg'/>
                 <p>
                     "I have taught many various types of classes, and my journey has led me to Yoga,
                     where I have been very lucky to learn from wise and inspiring individuals; sharing my
@@ -17,7 +18,7 @@ export default function About () {
             </div>
             <section>
                 <h4>Testimonials</h4>
-                <span className='testimonial-card'>
+                <span className='testimonial-card top'>
                     <div>
                         <p>
                         <img id='teacher-testimonial1' alt='teacher-testimonial1' src='1679288909967.jpg'/>
@@ -26,7 +27,7 @@ export default function About () {
                             tailored to you and this has allowed me to make fantastic personal progress. 
                             I would have no hesitation to recommend Julie.”
                         </p>     
-                        <h5>-Jo Ray</h5>
+                        <h5 className='testimonial-name right'>-Jo Ray</h5>
                     </div>
                 </span>
                 <span className='testimonial-card'>
@@ -37,7 +38,7 @@ export default function About () {
                             person I knew it would be special . Julie's tone is unique and she creates a calm and reassuring atmosphere. 
                             The session flowed with clear instructions, i would recommend Julie's 1-2-1.”
                         </p>
-                        <h5>-Sandy Philp</h5>
+                        <h5 className='testimonial-name left'>-Sandy Philp</h5>
                     </div>
                 </span>
             </section>

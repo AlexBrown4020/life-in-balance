@@ -9,9 +9,18 @@
     width: 90%;
 }
 
+#teacher-about-img {
+    width: 80%;
+}
+
 .testimonial-card {
     display: flex;
     width: 90%;
+}
+
+.top {
+    border-bottom: 1px green solid;
+    border-top: 1px green solid;
 }
 
 .testimonial-card p {
@@ -35,4 +44,13 @@
     align-items:center;
     display: flex;
     flex-direction: column;
+
+}
+
+.testimonial-name.right {
+    text-align: right;
+}
+
+.testimonial-name.left {
+    text-align: left;
 }
