@@ -1,0 +1,32 @@
+nav {
+    background-color: #d7d7d7;
+    height: 10%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav button {
+    background-color: #EBEBEB;
+    border: 2px solid#82A430;
+    padding: 3%;
+    border-radius: 15px;
+    font-weight: 750;
+    box-shadow: 1px 1px 1px gray;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2F6345;
+}
+
+nav button:hover {
+    background-color: #82A430;
+    border: 2px solid#EBEBEB;
+    color: #EBEBEB;
+}

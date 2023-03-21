@@ -1,8 +1,9 @@
 footer {
-    background-color: #ebebeb;
+    background-color: #d7d7d7;
     width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+

@@ -2,7 +2,7 @@ import './contact.css';
 
 export default function Contact () {
     return (
-        <div>
+        <div id='contact-container'>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
             <h3>Contact Me</h3>
             <p>Send an email or Facebook message to set up your sessions.

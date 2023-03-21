@@ -2,7 +2,7 @@ import './classes.css';
 
 export default function Classes () {
     return (
-        <div>
+        <div id='classes-container'>
             <h3>Classes & Schedule</h3>
             <section>
                 Friday Livestream:
