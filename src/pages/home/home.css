@@ -3,9 +3,13 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 main img {
     width: 90%;
+}
+
+main p {
+    width: 75%;
 }
