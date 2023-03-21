@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Classes from './pages/classes/Classes';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Classes/>
       <Contact/>
       <About/>
+      <Footer/>
     </div>
   );
 }
