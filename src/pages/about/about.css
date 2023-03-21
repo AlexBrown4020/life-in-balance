@@ -19,13 +19,20 @@
     font-style: italic;
 }
 
-
 #teacher-testimonial1 {
     width: 40%;
     float: left;
+    margin: 1%;
 }
 
 #teacher-testimonial2 {
     width: 34%;
     float: right;
+    margin: 1%;
+}
+
+#about-container section {
+    align-items:center;
+    display: flex;
+    flex-direction: column;
 }
