@@ -1,0 +1,31 @@
+.about-description {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-description p {
+    width: 90%;
+}
+
+.testimonial-card {
+    display: flex;
+    width: 90%;
+}
+
+.testimonial-card p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+#teacher-testimonial1 {
+    width: 40%;
+    float: left;
+}
+
+#teacher-testimonial2 {
+    width: 34%;
+    float: right;
+}
