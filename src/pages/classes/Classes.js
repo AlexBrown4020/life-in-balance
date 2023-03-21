@@ -31,9 +31,10 @@ export default function Classes () {
             <p className='classes-info'>
                 *Block bookings and group sessions are available
             </p>
-            <p  className='classes-info'>
+            <p className='classes-info'>
                 **Home visits are limited by distance/location
             </p>
+            <div id='contact-nav'/>
         </div>
     )
 }

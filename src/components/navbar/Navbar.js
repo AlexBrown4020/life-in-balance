@@ -3,10 +3,10 @@ import './navbar.css';
 export default function Navbar () {
     return (
         <nav>
-            <button><a href='#home-container'>Home</a></button>
-            <button><a href='#classes-container'>Classes</a></button>
-            <button><a href='#contact-container'>Contact</a></button>
-            <button><a href='#about-container'>About</a></button>
+            <button><a href='#home-nav'>Home</a></button>
+            <button><a href='#classes-nav'>Classes</a></button>
+            <button><a href='#contact-nav'>Contact</a></button>
+            <button><a href='#about-nav'>About</a></button>
         </nav>
     )
 }

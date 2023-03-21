@@ -14,7 +14,7 @@ export default function Contact () {
                 <img alt='mail' src='mail.png'/>
                 <a href='https://www.instagram.com/julie200brown/'><img alt='instagram' src='instagram.png'/></a>
             </div>
-
+            <div id='about-nav'/>
         </div>
     )
 }
