@@ -10,9 +10,9 @@ export default function Contact () {
             </p>
             <img id='user-contact' alt='user-contact' src='1679288947320.jpg'/>
             <div id='social-media-container'>
-                <img alt='facebook' src='facebook.png'/>
+                <a href='https://www.facebook.com/JulieBrownLIB'><img  alt='facebook' src='facebook.png'/></a>
                 <img alt='mail' src='mail.png'/>
-                <img alt='instagram' src='instagram.png'/>
+                <a href='https://www.instagram.com/julie200brown/'><img alt='instagram' src='instagram.png'/></a>
             </div>
 
         </div>
