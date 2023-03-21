@@ -3,7 +3,8 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 25%;
+    padding-bottom: 40%;
 }
 
 main img {
