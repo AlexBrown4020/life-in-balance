@@ -19,3 +19,19 @@ h2 {
     font-style: italic;
     font-weight: 450;
 }
+
+@media screen and (min-width:600px) {
+    h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    main {
+        margin-top: 15%;
+        padding-bottom: 20%;
+    }
+    main img {
+        width: 30%;
+    }
+}
