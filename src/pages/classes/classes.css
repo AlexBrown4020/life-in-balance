@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 15%;
+    background-color: rgb(17, 82, 17);
+    color: white;
 }
 
 #classes-container section {
@@ -11,7 +13,7 @@
     margin: 2%;
     padding: 5%;
     font-size: 22px;
-    border-bottom:1px solid green;
+    border-bottom:1px solid white;
 }
 
 .class-description {

@@ -1,3 +1,9 @@
+#about-container {
+    background-color: rgb(17, 82, 17);
+    color: white;
+    padding-top: 5%;
+}
+
 .about-description {
     align-items: center;
     justify-content: center;
@@ -23,8 +29,8 @@ h4 {
 }
 
 .top {
-    border-bottom: 1px green solid;
-    border-top: 1px green solid;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
 }
 
 .testimonial-card p {
