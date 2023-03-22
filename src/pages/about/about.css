@@ -2,6 +2,15 @@
     background-color: #75942c;
     color: white;
     padding-top: 5%;
+
+}
+
+#about-container section {
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+    color: black;
 }
 
 .about-description {
@@ -9,6 +18,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    text-shadow: 1px 1px 1px black;
 }
 
 .about-description p {
@@ -30,8 +40,8 @@ h4 {
 }
 
 .top {
-    border-bottom: 1px white solid;
-    border-top: 1px white solid;
+    border-bottom: 1px #75942c solid;
+    border-top: 1px #75942c solid;
 }
 
 .testimonial-card p {
@@ -54,13 +64,6 @@ h4 {
     float: right;
     margin: 1%;
     border-radius: 15px;
-}
-
-#about-container section {
-    align-items:center;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .testimonial-name {

@@ -1,14 +1,16 @@
 footer {
-    background-color: #d7d7d7;
+    background-color: #75942c;
     width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    font-size: 10px;
 }
 
 @media screen and (min-width:800px) {
     footer {
-        font-size: 22px;
+        font-size: 16px;
     }
 }
