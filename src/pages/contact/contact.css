@@ -1,6 +1,5 @@
 #contact-container {
     padding-bottom: 15%;
-    border-top: 5px ridge green;
 }
 
 #user-contact {
@@ -10,4 +9,13 @@
 #social-media-container img {
     width: 45px;
     margin: 5%;
+}
+
+@media screen and (min-width:800px) {
+    #contact-container p {
+        font-size: 22px;
+    }
+    #user-contact {
+        width: 40%;
+    }
 }

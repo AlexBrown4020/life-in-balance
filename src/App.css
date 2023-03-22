@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 h3 {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 #App {
@@ -11,6 +11,6 @@ h3 {
 
 @media screen and (min-width:600px) {
   h3 {
-    font-size: 38px;
+    font-size: 40px;
   }
 }

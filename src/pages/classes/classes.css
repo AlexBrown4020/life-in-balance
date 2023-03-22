@@ -4,17 +4,14 @@
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 15%;
-    border-top: 5px ridge green;
 }
 
 #classes-container section {
-    background-color: #f5f5f5;
     width: 80%;
-    margin: 5%;
+    margin: 2%;
     padding: 5%;
-    border-radius: 15px;
-    box-shadow: 1px 1px 1px gray;
     font-size: 22px;
+    border-bottom:1px solid green;
 }
 
 .class-description {
@@ -28,4 +25,22 @@
 
 .classes-info {
     font-size: 14px;
+}
+
+@media screen and (min-width:800px) {
+    #classes-container section {
+        padding: 3%;
+        font-size: 38px;
+    }
+    .class-description {
+        font-size: 28px;
+    }
+    
+    #classes-container li {
+        font-size: 26px;
+        text-align: left;
+    }
+    .classes-info {
+        font-size: 20px;
+    }
 }

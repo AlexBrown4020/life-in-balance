@@ -27,7 +27,7 @@ export default function About () {
                             tailored to you and this has allowed me to make fantastic personal progress. 
                             I would have no hesitation to recommend Julie.”
                         </p>     
-                        <h5 className='testimonial-name right'>-Jo Ray</h5>
+                        <h5 className='testimonial-name'>-Jo Ray</h5>
                     </div>
                 </span>
                 <span className='testimonial-card'>
@@ -38,7 +38,7 @@ export default function About () {
                             person I knew it would be special . Julie's tone is unique and she creates a calm and reassuring atmosphere. 
                             The session flowed with clear instructions, i would recommend Julie's 1-2-1.”
                         </p>
-                        <h5 className='testimonial-name left'>-Sandy Philp</h5>
+                        <h5 className='testimonial-name'>-Sandy Philp</h5>
                     </div>
                 </span>
             </section>
