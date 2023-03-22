@@ -4,7 +4,7 @@ export default function Classes () {
     return (
         <div id='classes-container'>
             <h3>Classes & Schedule</h3>
-            <section>
+            <section id='class-top'>
                 Friday Livestream:
                 <p className='class-description'>
                     1 hour group session held online at 9AM, every Friday

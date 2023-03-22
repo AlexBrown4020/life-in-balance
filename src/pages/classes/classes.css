@@ -16,6 +16,10 @@
     border-bottom:1px solid white;
 }
 
+#class-top {
+    border-top: 1px solid white;
+}
+
 .class-description {
     font-size: 18px;
 }
