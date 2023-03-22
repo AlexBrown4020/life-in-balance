@@ -17,6 +17,7 @@
 
 #teacher-about-img {
     width: 80%;
+    border-radius: 20px;
 }
 
 h4 {
@@ -45,12 +46,14 @@ h4 {
     width: 40%;
     float: left;
     margin: 1%;
+    border-radius: 15px;
 }
 
 #teacher-testimonial2 {
     width: 34%;
     float: right;
     margin: 1%;
+    border-radius: 15px;
 }
 
 #about-container section {
