@@ -1,5 +1,9 @@
 #contact-container {
     padding-bottom: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #user-contact {
@@ -10,6 +14,11 @@
 #social-media-container img {
     width: 45px;
     margin: 5%;
+}
+
+#client-image {
+    width: 80%;
+    border-radius: 15px;
 }
 
 @media screen and (min-width:800px) {
