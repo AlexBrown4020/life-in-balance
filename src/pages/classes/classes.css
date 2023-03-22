@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 15%;
+    border-top: 5px ridge green;
 }
 
 #classes-container section {

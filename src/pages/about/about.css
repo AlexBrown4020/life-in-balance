@@ -1,3 +1,7 @@
+#about-container {
+    border-top: 5px ridge green;
+}
+
 .about-description {
     align-items: center;
     justify-content: center;
