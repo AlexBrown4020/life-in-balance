@@ -31,10 +31,10 @@ export default function Email ({toggleEmail}) {
                 </IconButton>
             </div>
                 <form ref={form} id='contact-bottom' onSubmit={onSubmit}>
-                    <TextField sx={{width: '50%', padding: '5px', label:{color: 'white'}, input:{color: 'white'}}} variant='filled' label='Name' type='text' name='from_name'/>
-                    <TextField sx={{width: '50%', padding: '5px', label:{color: 'white'}, input:{color: 'white'}}} variant='filled' label='Email' type='text'  name='reply_to'/>
-                    <TextField sx={{width: '70%', padding: '5px', label:{color: 'white'}}} inputProps={{style:{color:'white'}}} rows={2} variant='filled' label='Message' multiline={true} type='text' name='message'/>
-                    <Button id='input-submit' sx={{border:'1px solid white', color:'white'}} variant='outlined' type='submit'>Submit</Button>
+                    <TextField sx={{width: '50%', margin: '5px', padding: '5px', label:{color: 'black'}, input:{color: 'black'}}} variant='filled' label='Name' type='text' name='from_name'/>
+                    <TextField sx={{width: '50%', margin: '5px', padding: '5px', label:{color: 'black'}, input:{color: 'black'}}} variant='filled' label='Email' type='text'  name='reply_to'/>
+                    <TextField sx={{width: '70%', margin: '5px', padding: '5px', label:{color: 'black'}}} inputProps={{style:{color:'black'}}} rows={2} variant='filled' label='Message' multiline={true} type='text' name='message'/>
+                    <Button id='input-submit' sx={{border:'1px solid black', color:'black'}} variant='outlined' type='submit'>Submit</Button>
                 </form>
         </section>
     )
