@@ -1,5 +1,6 @@
 import { IconButton, TextField, Button } from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
+import { styled } from "@mui/material/styles";
 import emailjs from '@emailjs/browser';
 
 import './email.css';
@@ -21,6 +22,33 @@ export default function Email ({toggleEmail}) {
             alert("Email error encountered");         
         });
     }
+
+    const StyledTextField = styled(TextField)({
+        "& label": {
+          color: "black"
+        },
+        "&:hover label": {
+          fontWeight: 700
+        },
+        "& label.Mui-focused": {
+          color: "black"
+        },
+        "& .MuiInput-underline:after": {
+          borderBottomColor: "black"
+        },
+        "& .MuiOutlinedInput-root": {
+          "& fieldset": {
+            borderColor: "white"
+          },
+          "&:hover fieldset": {
+            borderColor: "black",
+            borderWidth: 2
+          },
+          "&.Mui-focused fieldset": {
+            borderColor: "black"
+          }
+        }
+      });
     
     return (
         <section id='email-container'>
@@ -31,9 +59,9 @@ export default function Email ({toggleEmail}) {
                 </IconButton>
             </div>
                 <form ref={form} id='contact-bottom' onSubmit={onSubmit}>
-                    <TextField sx={{width: '50%', margin: '5px', padding: '5px', label:{color: 'black'}, input:{color: 'black'}}} variant='filled' label='Name' type='text' name='from_name'/>
-                    <TextField sx={{width: '50%', margin: '5px', padding: '5px', label:{color: 'black'}, input:{color: 'black'}}} variant='filled' label='Email' type='text'  name='reply_to'/>
-                    <TextField sx={{width: '70%', margin: '5px', padding: '5px', label:{color: 'black'}}} inputProps={{style:{color:'black'}}} rows={2} variant='filled' label='Message' multiline={true} type='text' name='message'/>
+                    <StyledTextField sx={{width: '50%', margin: '5px', padding: '5px'}} variant='filled' label='Name' type='text' name='from_name'/>
+                    <StyledTextField sx={{width: '50%', margin: '5px', padding: '5px'}} variant='filled' label='Email' type='text'  name='reply_to'/>
+                    <StyledTextField sx={{width: '70%', margin: '5px', padding: '5px'}} rows={2} variant='filled' label='Message' multiline={true} type='text' name='message'/>
                     <Button id='input-submit' sx={{border:'1px solid black', color:'black'}} variant='outlined' type='submit'>Submit</Button>
                 </form>
         </section>
