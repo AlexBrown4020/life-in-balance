@@ -25,8 +25,8 @@ export default function Email ({toggleEmail}) {
     return (
         <section id='email-container'>
             <div id='contact-top'>
-                <h3>Email</h3>
-                <IconButton sx={{color:'white'}} onClick={(toggleEmail)}>
+                <h4>Contact Form</h4>
+                <IconButton sx={{ position:'absolute', top:'1%', right: '5%', color:'black', height: '10%', 'margin-top':'5%'}} onClick={(toggleEmail)}>
                     <CloseIcon/>
                 </IconButton>
             </div>
