@@ -9,15 +9,14 @@ nav {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    z-index: 2;
+    z-index: 1;
     background-color: rgb(234, 234, 234);
     height: 10%;
     opacity: 90%;
-    box-shadow: 1px 2px 1px rgb(185, 185, 185);
 }
 
 nav h1 {
-    font-size: 20px;
+    font-size: 28px;
     margin: 0px;
     padding: 0px;
     color:#2F6345;
@@ -27,10 +26,9 @@ nav h1 {
     display: flex;
     margin: 0px;
     padding: 0px;
-    justify-content: space-around;
     flex-direction: column;
     position: fixed;
-    height: 60%;
+    height: 100%;
     background-color: rgb(234, 234, 234);
     box-shadow: 1px 2px rgb(185, 185, 185);
     width: 25%;
@@ -57,6 +55,7 @@ nav button {
     box-shadow: 1px 1px 1px gray;
     font-size: 15px;
     width: 75%;
+    margin-top: 5%;
 }
 
 nav a {
@@ -100,14 +99,14 @@ nav button:hover {
     nav button {
         width: 90%;
     }
+    nav button {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:350px) {
     .visible {
         top:10%;
-    }
-    nav button {
-        padding: 8%;
     }
 }
 
@@ -115,13 +114,12 @@ nav button:hover {
     nav {
         height: 10%;
     }
+    nav button {
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width:600px) {
-    nav button {
-        padding: 3%;
-        font-size: 22px;
-    }
     nav {
         height: 15%
     }
@@ -131,14 +129,17 @@ nav button:hover {
 }
 
 @media screen and (min-width:1000px) {
+    nav .nav-container {
+        margin-top: 5%;
+    }
     nav button {
-        font-size: 24px;
+        font-size: 25px;
     }
     nav {
         height: 10%
     }
     nav h1 {
-        font-size: 26px;
+        font-size: 30px;
     }
     .burger-bar {
         width: 4em;
@@ -146,9 +147,7 @@ nav button:hover {
         margin: .3em;
     }
     .nav-container {
-        height: 70%;
         width: 15%;
         top: 0px;
-        margin-top: 5%;
     }
 }
