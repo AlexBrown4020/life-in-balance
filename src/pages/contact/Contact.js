@@ -25,7 +25,7 @@ export default function Contact () {
             }
                 <div id='social-media-container'>
                     <a href='https://www.facebook.com/JulieBrownLIB'><img  alt='facebook' src='facebook.png'/></a>
-                    <a href='.' onClick={() => {
+                    <a onClick={() => {
                         toggleEmail();
                     }}><img alt='mail' src='mail.png'/></a>
                     <a href='https://www.instagram.com/julie200brown/'><img alt='instagram' src='instagram.png'/></a>
