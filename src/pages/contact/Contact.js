@@ -1,6 +1,14 @@
+import { useState } from 'react';
+import Email from '../../components/email/Email';
 import './contact.css';
 
 export default function Contact () {
+
+    const [emailForm, setEmailForm] = useState(false);
+
+    const toggleEmail = () => {
+        setEmailForm(!emailForm);
+    };
 
     return (
         <div id='contact-container'>
@@ -11,9 +19,15 @@ export default function Contact () {
                 Send an email or Facebook message to set up your sessions.
                 Be sure to check me out on Instagram!
             </p>
+            {
+                emailForm ? <Email/>
+                : <></>
+            }
                 <div id='social-media-container'>
                     <a href='https://www.facebook.com/JulieBrownLIB'><img  alt='facebook' src='facebook.png'/></a>
-                    <a href='.'><img alt='mail' src='mail.png'/></a>
+                    <a href='.' onClick={() => {
+                        toggleEmail();
+                    }}><img alt='mail' src='mail.png'/></a>
                     <a href='https://www.instagram.com/julie200brown/'><img alt='instagram' src='instagram.png'/></a>
                 </div>
             <div id='about-nav'/>
