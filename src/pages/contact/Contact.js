@@ -1,6 +1,7 @@
 import './contact.css';
 
 export default function Contact () {
+
     return (
         <div id='contact-container'>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
@@ -12,7 +13,7 @@ export default function Contact () {
             </p>
                 <div id='social-media-container'>
                     <a href='https://www.facebook.com/JulieBrownLIB'><img  alt='facebook' src='facebook.png'/></a>
-                    <img alt='mail' src='mail.png'/>
+                    <a href='.'><img alt='mail' src='mail.png'/></a>
                     <a href='https://www.instagram.com/julie200brown/'><img alt='instagram' src='instagram.png'/></a>
                 </div>
             <div id='about-nav'/>
