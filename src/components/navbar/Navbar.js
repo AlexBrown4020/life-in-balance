@@ -23,7 +23,7 @@ export default function Navbar () {
             <div>
                 <h1> Life in Balance </h1>
             </div>
-            <div id='nav-container'>
+            <div class={menu}>
                 <button><a href='#home-nav'>Home</a></button>
                 <button><a href='#classes-nav'>Classes</a></button>
                 <button><a href='#contact-nav'>Contact</a></button>

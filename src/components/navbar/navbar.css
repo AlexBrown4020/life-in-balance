@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 nav {
-    background-color: #e9e9e9;
     height: 12%;
     top: 0px;
     left: 0px;
@@ -21,11 +20,12 @@ nav h1 {
     color:#2F6345;
 }
 
-#nav-container {
+.nav-container {
     display: flex;
     margin: 0px;
     padding: 0px;
     justify-content: space-around;
+    position: fixed;
 }
 
 nav button {
@@ -70,11 +70,12 @@ nav button:hover {
 }
 
 .hidden {
-    right: -50%;
+    top: -20%;
     transition: ease-out .5s;
 }
 
 .visible {
+    top: 5%;
     transition: ease-out 0.5s;
 }
 
