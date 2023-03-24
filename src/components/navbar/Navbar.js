@@ -21,10 +21,10 @@ export default function Navbar () {
                 <h1> Life in Balance </h1>
             </div>
             <div class={menu}>
-                <button><a href='#home-nav'>Home</a></button>
-                <button><a href='#classes-nav'>Classes</a></button>
-                <button><a href='#contact-nav'>Contact</a></button>
-                <button><a href='#about-nav'>About</a></button>
+                <a href='#home-nav' onClick={updateMenu}>Home</a>
+                <a href='#classes-nav' onClick={updateMenu}>Classes</a>
+                <a href='#contact-nav' onClick={updateMenu}>Contact</a>
+                <a href='#about-nav' onClick={updateMenu}>About</a>
             </div>
             <div className='burger-menu' onClick={updateMenu}>
                 <div className='burger-bar'></div>

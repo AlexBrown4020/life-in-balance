@@ -45,29 +45,30 @@ nav h1 {
     transition: ease-out 0.5s;
 }
 
-nav button {
+nav a {
     background-color: #EBEBEB;
     border: 2px solid#82A430;
     margin: 4%;
     padding: 2%;
     border-radius: 15px;
-    font-weight: 750;
     box-shadow: 1px 1px 1px gray;
-    font-size: 15px;
     width: 75%;
     margin-top: 5%;
+    color: #2F6345;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;  
+    font-size: 15px;
+    font-weight: 750;
 }
 
-nav a {
-    text-decoration: none;
-    color: #2F6345;
-    font-family: 'Quicksand', sans-serif;
+nav a:hover {
+    background-color: #82A430;
+    border: 2px solid#EBEBEB;
+    color: #EBEBEB;
 }
 
 nav button:hover {
     background-color: #82A430;
-    border: 2px solid#EBEBEB;
-    color: #EBEBEB;
 }
 
 .burger-menu {
@@ -96,10 +97,8 @@ nav button:hover {
     .visible {
         top: 12%;
     } 
-    nav button {
+    nav a {
         width: 90%;
-    }
-    nav button {
         font-size: 18px;
     }
 }
@@ -108,13 +107,17 @@ nav button:hover {
     .visible {
         top:10%;
     }
+    nav a {
+        width: 80%;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:500px) {
     nav {
         height: 10%;
     }
-    nav button {
+    nav a {
         font-size: 24px;
     }
 }
@@ -132,7 +135,7 @@ nav button:hover {
     nav .nav-container {
         margin-top: 5%;
     }
-    nav button {
+    nav a {
         font-size: 25px;
     }
     nav {
