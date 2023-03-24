@@ -3,8 +3,11 @@ import CloseIcon from '@mui/icons-material/Close';
 import emailjs from '@emailjs/browser';
 
 import './email.css';
+import { useRef } from "react";
 
 export default function Email ({toggleEmail}) {
+
+    const form = useRef();
 
     const onSubmit = (e) => {
         e.preventDefault();
