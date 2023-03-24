@@ -20,7 +20,7 @@ export default function Contact () {
                 Be sure to check me out on Instagram!
             </p>
             {
-                emailForm ? <Email/>
+                emailForm ? <Email toggleEmail={toggleEmail}/>
                 : <></>
             }
                 <div id='social-media-container'>
