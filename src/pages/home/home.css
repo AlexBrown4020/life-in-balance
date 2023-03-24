@@ -20,6 +20,13 @@ h2 {
     font-weight: 450;
 }
 
+@media screen and (max-width:350px) {
+    
+    main {
+        margin-top: 30%;
+    }
+}
+
 @media screen and (min-width:600px) {
     h1 {
         font-size: 42px;
