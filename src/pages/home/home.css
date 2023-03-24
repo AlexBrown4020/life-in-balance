@@ -3,7 +3,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 25%;
+    margin-top: 50%;
     padding-bottom: 40%;
 }
 
@@ -18,13 +18,6 @@ main p {
 h2 {
     font-style: italic;
     font-weight: 450;
-}
-
-@media screen and (max-width:350px) {
-    
-    main {
-        margin-top: 30%;
-    }
 }
 
 @media screen and (min-width:600px) {
