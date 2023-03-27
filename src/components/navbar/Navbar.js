@@ -17,6 +17,7 @@ export default function Navbar () {
 
     return (
         <nav>
+            <img src='logo.png' />
             <div>
                 <h1> Life in Balance </h1>
             </div>

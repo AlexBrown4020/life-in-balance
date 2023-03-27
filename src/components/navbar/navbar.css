@@ -45,6 +45,10 @@ nav h1 {
     transition: ease-out 0.3s;
 }
 
+nav img {
+    width: 90px;
+}
+
 nav a {
     background-color: #EBEBEB;
     border: 2px solid#82A430;
@@ -100,6 +104,9 @@ nav button:hover {
     .visible {
         top: 10%;
     } 
+    .hidden {
+        right: -50%;
+    }
     nav a {
         width: 90%;
         font-size: 18px;
