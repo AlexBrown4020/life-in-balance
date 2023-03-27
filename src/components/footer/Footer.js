@@ -3,8 +3,9 @@ import './footer.css';
 export default function Footer () {
     return (
         <footer>
-            <p>Life in Balance</p>
-            <p>Copyright © 2023, All Rights Reserved.</p>
+                <h6>Copyright © 2023,<br></br>All Rights Reserved.</h6>
+                <h6>Life in Balance</h6>
+                <h6>Designer <br></br>portfolio: <a href='https://alexbrown-portfolio.netlify.app/'>Alex Brown</a></h6>
         </footer>
     )
 }
