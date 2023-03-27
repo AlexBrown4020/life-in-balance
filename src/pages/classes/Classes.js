@@ -18,7 +18,6 @@ export default function Classes () {
                 Zoom Session:
                 <ul>
                     <li>£25 per 60 minutes</li>
-                    <li>Camera and a stable internet connection</li>
                 </ul>
             </section>
             <section>
