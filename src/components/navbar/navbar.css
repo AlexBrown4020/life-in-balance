@@ -127,6 +127,9 @@ nav button:hover {
         width: 80%;
         font-size: 18px;
     }
+    .logo {
+        width: 60px;
+    }
 }
 
 @media screen and (min-width:500px) {
@@ -142,6 +145,9 @@ nav button:hover {
     nav a {
         font-size: 24px;
     }
+    .logo {
+        width: 70px;
+    }
 }
 
 @media screen and (min-width:600px) {
@@ -153,6 +159,9 @@ nav button:hover {
     }
     .visible {
         top: 12%;
+    }
+    .logo {
+        width: 80px;
     }
 }
 
