@@ -32,5 +32,5 @@ export default function Contact () {
                 </div>
             <div id='about-nav'/>
         </div>
-    )
-}
+    );
+};
