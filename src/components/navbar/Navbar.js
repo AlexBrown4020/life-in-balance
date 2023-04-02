@@ -17,11 +17,9 @@ export default function Navbar () {
 
     return (
         <nav>
-            <img src='logo.png' />
-            <div>
-                <h1> Life in Balance </h1>
-            </div>
-            <div class={menu}>
+            <img alt='' src='logo.png' />
+            <h1> Life in Balance </h1>
+            <div className={menu}>
                 <a href='#home-nav' onClick={updateMenu}>Home</a>
                 <a href='#classes-nav' onClick={updateMenu}>Classes</a>
                 <a href='#contact-nav' onClick={updateMenu}>Contact</a>

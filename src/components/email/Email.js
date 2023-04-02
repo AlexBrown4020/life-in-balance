@@ -60,7 +60,7 @@ export default function Email ({toggleEmail}) {
             </div>
                 <form ref={form} id='contact-bottom' onSubmit={onSubmit}>
                     <StyledTextField sx={{width: '50%', margin: '5px', padding: '5px'}} variant='filled' label='Name' type='text' name='from_name'/>
-                    <StyledTextField sx={{width: '50%', margin: '5px', padding: '5px'}} variant='filled' label='Email' type='text'  name='reply_to'/>
+                    <StyledTextField sx={{width: '50%', margin: '5px', padding: '5px'}} variant='filled' label='Email' type='text'  name='email'/>
                     <StyledTextField sx={{width: '70%', margin: '5px', padding: '5px'}} rows={2} variant='filled' label='Message' multiline={true} type='text' name='message'/>
                     <Button id='input-submit' sx={{border:'1px solid black', color:'black'}} variant='outlined' type='submit'>Submit</Button>
                 </form>
