@@ -35,6 +35,10 @@
     font-size: 14px;
 }
 
+.class-special {
+    font-size: 18px;
+}
+
 @media screen and (min-width:800px) {
     #classes-container section {
         padding: 3%;
