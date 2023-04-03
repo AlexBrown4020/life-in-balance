@@ -19,6 +19,8 @@ export default function Classes () {
             <section>
                 Zoom Session:
                 <ul>
+                    <li>Private 1-2-1 session</li>
+                    <li>Session tailored to your needs</li>
                     <li>£25 per 60 minutes</li>
                 </ul>
             </section>
