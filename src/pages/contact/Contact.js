@@ -28,7 +28,7 @@ export default function Contact () {
                     <a href='#contact-container' onClick={() => {
                         toggleEmail();
                     }}><img alt='mail' src='mail.png'/></a>
-                    <a href='https://www.instagram.com/julie200brown/'><img alt='instagram' src='instagram.png'/></a>
+                    <a href='https://www.instagram.com/julie200yoga/'><img alt='instagram' src='instagram.png'/></a>
                 </div>
             <div id='about-nav'/>
         </div>
