@@ -10,8 +10,8 @@ export default function Classes () {
                     1 hour group session held online at 9AM, every Friday
                 </p>
                 <ul>
-                    <li>Monthly membership at £6 per class</li>
-                    <li>Or £7 per class</li>
+                    <li>Monthly membership at £8 per class</li>
+                    <li>Or £10 per class</li>
                     <li>Access to recordings throughout the month</li>
                 </ul>
                 <p className='classes-info'>*Excluding bank holidays</p>
@@ -27,10 +27,10 @@ export default function Classes () {
             <section>
                 Home Visit:
                 <ul>
-                    <li>£35-£45 per 75 minutes</li>
+                    <li>£35-£55 per 75 minutes</li>
                     <li>Equipment available on request</li>
                 </ul>
-                <p className='classes-info'>*Limited by distance</p>
+                <p className='classes-info'>*Price dependent on distance</p>
             </section>
             <p className='classes-info'>
                 *Block bookings and group sessions are available
